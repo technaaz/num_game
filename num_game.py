@@ -15,7 +15,7 @@ while not game_over:
 
         guess += 1
         num = int(input("Guess Again: "))
-        if guess == 6:
+        if guess == 10:
             game_over = True
             print("You tried maximum attempt. Game Over")
     
